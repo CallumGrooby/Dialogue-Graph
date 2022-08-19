@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c02f63f5d7ef384b8a282b7639c1fc1, type: 3}
+  m_Name: TestGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Test
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: a5cd338f-6481-4f0d-8946-66e9f8bf050b
+    <Name>k__BackingField: Group
+    <Position>k__BackingField: {x: 825, y: 200}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: af5b6b7b-41d9-4eea-8dc1-d55e8a8a82fe
+    <Name>k__BackingField: Start
+    <Text>k__BackingField: Dialgoue Text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 6d6726c6-5852-4f27-b048-d4cafd2c6bed
+    <GroupID>k__BackingField: a5cd338f-6481-4f0d-8946-66e9f8bf050b
+    DialogueType: 1
+    <Position>k__BackingField: {x: 850, y: 259}
+  - <ID>k__BackingField: 6d6726c6-5852-4f27-b048-d4cafd2c6bed
+    <Name>k__BackingField: Option1
+    <Text>k__BackingField: Dialgoue Text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: a5cd338f-6481-4f0d-8946-66e9f8bf050b
+    DialogueType: 1
+    <Position>k__BackingField: {x: 1216, y: 259}
+  <OldGroupNames>k__BackingField:
+  - Group
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Group
+      Value:
+      - Start
+      - Option1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf78062e5272774fa099cfcd9329210, type: 3}
+  m_Name: Choices
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Choices
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 3ca79c50f24cbd04e82efd24e07adb53, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 82833219ce6e3e84f84e613fa4de504b, type: 2}
+      - {fileID: 11400000, guid: eee02681eff8b6142b41184c970583cf, type: 2}
+      - {fileID: 11400000, guid: 2145e89a88c87c84499c29ce6e941970, type: 2}
+      - {fileID: 11400000, guid: ae223dec8796a6e48b68b6bd66955ddc, type: 2}
+  <UngroupedDialogues>k__BackingField: []

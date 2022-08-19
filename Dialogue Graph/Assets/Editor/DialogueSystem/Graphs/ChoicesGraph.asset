@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c02f63f5d7ef384b8a282b7639c1fc1, type: 3}
+  m_Name: ChoicesGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Choices
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: d3ccb8b1-d2c0-4ad4-9732-621c23fd2e06
+    <Name>k__BackingField: DialogueGroup
+    <Position>k__BackingField: {x: 408, y: 288}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 9922c0d7-cc70-47ff-98b9-a4519f2e8bb5
+    <Name>k__BackingField: Options
+    <Text>k__BackingField: Choose a option
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Option 1
+      <NodeID>k__BackingField: f84e7f86-6ffe-45b2-824f-6252a8cc6602
+    - <Text>k__BackingField: Option 2
+      <NodeID>k__BackingField: fc6197a9-d631-457d-be68-723eb0c53afc
+    - <Text>k__BackingField: Option 3
+      <NodeID>k__BackingField: ba87ce79-93a4-4032-92a4-d23eaf44d160
+    <GroupID>k__BackingField: d3ccb8b1-d2c0-4ad4-9732-621c23fd2e06
+    DialogueType: 1
+    <Position>k__BackingField: {x: 433, y: 377}
+  - <ID>k__BackingField: f84e7f86-6ffe-45b2-824f-6252a8cc6602
+    <Name>k__BackingField: Choice1
+    <Text>k__BackingField: 'Option 1 '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: d3ccb8b1-d2c0-4ad4-9732-621c23fd2e06
+    DialogueType: 0
+    <Position>k__BackingField: {x: 881, y: 347}
+  - <ID>k__BackingField: fc6197a9-d631-457d-be68-723eb0c53afc
+    <Name>k__BackingField: Choice2
+    <Text>k__BackingField: Option 2
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: d3ccb8b1-d2c0-4ad4-9732-621c23fd2e06
+    DialogueType: 0
+    <Position>k__BackingField: {x: 881, y: 565}
+  - <ID>k__BackingField: ba87ce79-93a4-4032-92a4-d23eaf44d160
+    <Name>k__BackingField: Choice3
+    <Text>k__BackingField: Option 3
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: d3ccb8b1-d2c0-4ad4-9732-621c23fd2e06
+    DialogueType: 0
+    <Position>k__BackingField: {x: 881, y: 776}
+  <OldGroupNames>k__BackingField:
+  - DialogueGroup
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: DialogueGroup
+      Value:
+      - Options
+      - Choice1
+      - Choice2
+      - Choice3
